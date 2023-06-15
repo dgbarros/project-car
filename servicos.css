@@ -7,6 +7,7 @@
 }
 body{
     background-color: rgb(180, 179, 179);
+      mudar para cor branca 
 }
 
 header  {
@@ -83,4 +84,5 @@ ul p{
  }
 footer{
     text-align: center;
+      adicionar a mesma cor do HEADER 
 }
