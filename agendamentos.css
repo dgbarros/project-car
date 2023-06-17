@@ -40,3 +40,75 @@ nav > a:hover{
     transition: .4s;
    
 }
+
+#titulo{
+    font-family: sans-serif;
+    margin-left: 7%;
+}
+
+#subtitulo{
+    font-family: sans-serif;
+    margin-left: 10%;
+}
+
+fieldset{
+    border: 0;
+}
+
+main{
+   margin-left: 36%;
+   margin-top: 2%;
+   justify-content: center;
+   font-size: 1em;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    display: block;
+
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[ type="text"], .campo input[ type="email"], .campo select, .campo textarea {
+    border: 1px solid;
+    box-shadow: 2px 2px 2px rgb(87, 87, 87)
+   ;
+   display: block;  
+} 
+
+.campo select option{
+     padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background-color: rgb(216, 216, 216);
+}
+.botao{
+    background-color: rgb(92, 92, 92);
+    color: white;
+    font-size: 1.2em;
+    border: 0;
+    padding: 0,2em 0.6em;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
+    position: absolute;
+
+
+}
+
+.botao:hover{
+    background-color: rgba(128, 128, 128, 0.521);
+}

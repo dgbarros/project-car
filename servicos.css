@@ -6,7 +6,7 @@
     padding: 0%;
 }
 body{
-    background-color: rgb(180, ;
+   background-color: white;
 }
 
 header  {
@@ -61,26 +61,24 @@ ul{
     padding: 7%;   
 }
 
-ul p{
-    text-align: center;
-    
-}
- section p{
-    background-color: black;
-    color: white;
-    border-radius: 10px 10px;
-    font-size: 1.3em;
- }
-
- section a{
+ul a{
     text-decoration: none;
     color: white;
  }
 
- section p:hover{
+ul p{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px 10px;
+    font-size: 1.3em; 
+}
+
+ ul p:hover{
     background-color: rgba(122, 122, 122, 0.74);
 
  }
 footer{
     text-align: center;
+    background-color: gray ;
 }

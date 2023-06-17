@@ -20,5 +20,82 @@
             <a href="ouvidoria.html">Ouvidoria</a>
         </nav> 
     </header>
+<main>
+    
+        <div class="campo">
+            <h1 id="titulo">
+                Agendamentos
+            </h1>
+            <br>
+            <p id="subtitulo">
+                Complete suas informações
+            </p>
+            <br>
+        </div>
+    
+        <form>
+            <fieldset class="grupo">
+    
+                <div class="campo">
+                    <label for="nome">
+                        <strong>Nome</strong>
+                    </label>
+                    <input type="text" name="nome " id="nome"
+                    required>
+                </div>
+    
+                <div class="campo">
+                    <label for="sobrenome" >
+                        <strong>Sobrenome</strong>
+                    </label>
+                    <input type="text" name="sobrenome" id="sobrenome"
+                    required>
+                </div>
+            </fieldset>
+    
+            <div class="campo">
+                <label for="email" >
+                    <strong>Email</strong>
+                </label>
+                <input type="email" name="email" id="email"
+                required >
+            </div>
+    
+            <div class="campo">
+                <label><strong>Cidade</strong></label>
+                <select id="cidade">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Minas Gerais</option>
+                    <option>Rio de Janeiro</option>
+                    <option>São Paulo</option>
+                </select>
+            </div>
+    
+            <div class="campo">
+                <label><strong>Qual serviço você procura?</strong></label>
+                <label>
+                    <input type="radio" name="servicos" value="alinhamento"> Alinhamento e Balanceamento
+                </label>
+                <label>
+                    <input type="radio" name="servicos" value="funilaria"> Funilaria e Pintura
+                </label>
+                <label>
+                    <input type="radio" name="servicos" value="revisao">Revisão
+                </label>
+                <label>
+                    <input type="radio" name="servicos" value="outros">Outros
+                </label>
+            </div>
+    
+            <div class="campo">
+                <br>
+                <label><strong>Especifique o problema do seu veículo</strong></label>
+                <textarea row="15" style="width: 26em" id="problema" name="problema"></textarea>
+            </div>
+    
+            <button class="botao" type="submit">Concluido</button>
+        </form>
+</main>
+
 </body>
 </html>
