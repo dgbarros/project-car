@@ -9,6 +9,13 @@ body{
     background-color: rgb(180, 179, 179);
 }
 
+main{
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+    font-size: 1em;
+}
+
 header  {
     background-image: linear-gradient(to right, gray , rgb(197, 197, 197) );
     font-size: 1em;
@@ -40,4 +47,25 @@ nav > a:hover{
     color: white;
     transition: .4s;
    
+}
+
+#titulo{
+    font-family: sans-serif;
+    margin-left: 7%;
+}
+.campo label{
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+.campo input[ type="text"], .campo input[ type="email"], .campo select, .campo textarea {
+    border: 1px solid;
+    box-shadow: 2px 2px 2px rgb(87, 87, 87)
+   ;
+     
+} 
+
+input, select, textarea, button{
+    border-radius: 5px;
+    padding: 3px;
 }
