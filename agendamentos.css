@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+@media (max-width: 768px){
+    .none{
+        display: none;
+    }
+}
+
 *{
     margin: 0%;
     padding: 0%;
@@ -11,6 +17,8 @@ body{
 header  {
     background-image: linear-gradient(to right, gray , rgb(197, 197, 197) );
     font-size: 1em;
+    width: 100%;
+    max-width: 100vw;
     
 }
 header > h1{

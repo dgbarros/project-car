@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
-
+@media (max-width: 768px){
+    .none{
+        display: none;
+    }
+}
 *{
     margin: 0%;
     padding: 0%;
@@ -36,6 +40,8 @@ nav > a {
     font-weight: bold;
     
 }
+
+
 nav > a:hover{
     color: white;
     transition: .4s;
